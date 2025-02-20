@@ -1,9 +1,9 @@
 # RL-Source-Collection
-A collection of relevant sources for reinforcement learning (RL) for 2018 - 2024. The state of RL research might change with time.
+A relevant collection of RL research and general sources (ranging from 2018 -2024) [is provided here](https://drive.google.com/drive/folders/1nefw5FQm6zTuMbPGvaM67fKIJJ6Yu-uV).
 
 # Depictions
 
-New to RL? Here are a few self-made RL depictions, showing major research areas and practical approaches with their connections. The depictions are generally available as a shared [Google Slides presentation](https://docs.google.com/presentation/d/1rUTgfJ1dmDprwdEZaN-7dcyWc7nw73MpmQmUY44LPXY/edit?usp=sharing).
+New to RL? Here are a few self-made RL depictions, showing major research areas and practical approaches with their connections. The depictions are generally available as a shared [Google Slides presentation](https://docs.google.com/presentation/d/1rUTgfJ1dmDprwdEZaN-7dcyWc7nw73MpmQmUY44LPXY/edit?usp=sharing). And there are still a few more slides in there.
 
 ## A General Overview of RL
 
@@ -13,6 +13,8 @@ The two following depictions are provided for general decision-making for real-w
 
 <img src="https://github.com/user-attachments/assets/784f6f3f-c945-43d4-88bf-129ac08d335d" alt="Description" width="800">
 <br>
+
+
 Once one grows a better understanding of RL, the decision-making will look more detailed like this:
 
 <img src="https://github.com/user-attachments/assets/ea072635-6b39-488b-b0e3-2b7e4f24589a" alt="Description" width="1000">
@@ -20,8 +22,7 @@ Once one grows a better understanding of RL, the decision-making will look more 
 And eventually, it will look even more detailed and worked out.
 
 
-<details open>
-  <summary> <h2><b> Additional Depictions: </b></h2></summary>
+## Additional Depictions:
 
 ## Preparing Simulation Code
 
@@ -49,43 +50,31 @@ Collecting offline data for RL needs expertise in RL to be done correctly. Gener
 
 Many RL control applications involve more than just one agent, transforming the task to a MARL problem. In general, one can choose between the three MARL paradigms of CTCE, DTDE, and CTDE, based on the problem, and further maintain scalability through an effective MARL communication ruleset or protocol.
 
-... 
+<img src="https://github.com/user-attachments/assets/e6166ab2-1757-4345-aa11-6d3de5cb96cf" alt="Description" width="900">
+
 
 One may further divide MARL into collaborative, coorperative, competetive, and individualistic tasks.
 
-...
+<img src="https://github.com/user-attachments/assets/323b5f17-6ae5-4ee8-aead-e8e4688898ef" alt="Description" width="900">
 
-MARL will allow for controlling more complex and large-scale systems automatically, making it a very relevant topic in research.
-</details>
+MARL will allow for controlling more complex and large-scale systems, making it a highly relevant topic in research. Yet scalably coding and deploying multi-agent systems (MAS) can be very challanging.
 
+## Further Reading
 
+There are a lot more topics to explore in RL and MARL research. At best, one also checks out books like [the MARL Book](https://www.marl-book.com/download/marl-book.pdf) or [Deep Reinforcement Learning (price-worthy German version)](https://www.amazon.de/Deep-Reinforcement-Learning-Praxis-Handbuch-Professional/dp/3747500366), and goes into a personal project with it.
 
-# Shared Source Collection
+Furthermore, going extensively through the latest research papers in my [source collection](https://drive.google.com/drive/folders/1nefw5FQm6zTuMbPGvaM67fKIJJ6Yu-uV), and [open-source research projects and frameworks](https://github.com/HenningBeyer?tab=stars) helps a lot too. 
 
-...
-
-## Notable Samples
-
-### Notable Application papers
-
-#Alpha chip, tokamak, Isaac Lab, MARL traffic control
-
-### Notable RL Frameworks
-
-JAX: Stoix, Mava,
-
-To begin with RL, I recommend reading about the papers stored in 
-
+Some initial areas to begin with are: 
 - online RL
 - offline RL
-- Model-based online RL
 - offline-to-online RL
+- Model-based online RL
 - Model-based offline RL
 - Multi-agent RL (MARL)
 - Graph neural networks (GNNs)
-- --> One might also read based on his current needs and interests.
-
-### Bonus
+- RL and MARL algorithms
+- Computational aspects of RL and MARL
 
 
 
